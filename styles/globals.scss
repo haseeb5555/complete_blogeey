@@ -76,3 +76,14 @@ a {
 .up-animation {
   animation: slideUp 1s ease;
 }
+/* globals.scss */
+
+.fade-out-animation {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+
+  &.fade-out {
+    opacity: 0;
+  }
+}
+

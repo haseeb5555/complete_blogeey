@@ -19,6 +19,7 @@ const Categories = () => {
         <Link key={index} href={`/category/${category.slug}`}>
           <span className={`cursor-pointer block text-gray-100 ${(index === categories.length - 1) ? 'border-b-0' : 'border-b'} pb-3 mb-3 hover:text-gray-500`}>{category.name}</span>
         </Link>
+        
       ))}
     </div>
   );

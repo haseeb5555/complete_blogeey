@@ -29,8 +29,6 @@ const Footer = () => {
          is a world clas platform where
          people who are intrested in different categories of posts
          can get amazings blog posts. 
-
-
       </p>
     </div>
     <div className='flex flex-wrap gap-12'>
