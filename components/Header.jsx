@@ -57,7 +57,7 @@ const Header = () => {
                 <div className={`${!toggle ? 'hidden':'flex'}  bg-[#1F1F22] p-6 black-gradient absolute top-20 right-0 mx-4 my-2 
                 min-w-[140px] z-10 rounded-xl`}>
                     <ul className='list-none flex justify-end items-start flex-col gap-4 '>
-                      
+                    <Link href='/'><span className='md:float-right mt-2 align-middle text-[18px] text-white ml-4 font-normal cursor-pointer hover:text-gray-500' onClick={()=>setToggle(!toggle)} >Home</span></Link>    
                  {categories.map((category,index)=>(
                   <Link key={index} 
                    href={`/category/${category.slug}`}
@@ -69,14 +69,16 @@ const Header = () => {
                   } 
                     }
                   >
-                     <span className="md:float-right mt-2 align-middle  text-white ml-4 font-normal cursor-pointer">{category.name}</span>
+                     <span className="md:float-right mt-2 align-middle hover:text-gray-500 text-white ml-4 font-normal cursor-pointer">{category.name}</span>
                   </Link>
+                  
 
                  ))}
+                 
                    <div className="w-[170px] ml-4 h-px bg-gray-300"></div>
 
-                  <Link href='/about-us/about'><span className='md:float-right mt-2 align-middle  text-white ml-4 font-normal cursor-pointer hover:text-gray-500' >About Us</span></Link>
-                  <Link href='/contact-us/contact'><span className='md:float-right mt-2 align-middle  text-white ml-4 font-normal cursor-pointer hover:text-gray-500' >Contact Us</span></Link>
+                  <Link href='/about-us/about'><span className='md:float-right mt-2 align-middle text-[18px] text-white ml-4 font-normal cursor-pointer hover:text-gray-500' onClick={()=>setToggle(!toggle)} >About Us</span></Link>
+                  <Link href='/contact-us/contact'><span className='md:float-right mt-2 align-middle text-[18px]  text-white ml-4 font-normal cursor-pointer hover:text-gray-500'onClick={()=>setToggle(!toggle)}  >Contact Us</span></Link>
 
              </ul>
              </div>

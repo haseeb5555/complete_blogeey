@@ -1,13 +1,13 @@
 export const footerLinks = [
     {
-      title: 'ChatGPT',
+      title: 'AI Descoveries',
       links: [
-        'chatbot',
-        'ai',
-        'nlp',
-        'gpt-3',
-        'robotics',
-        'gpt-4'
+        'Chatbot',
+        'Ai',
+        'Nlp',
+        'GPT-3.5',
+        'Robotics',
+        'GPT-4'
       ],
     },
     {
@@ -20,44 +20,31 @@ export const footerLinks = [
         'nextjs',
       ],
     },
+ 
     {
-      title: 'Astronomy',
+      title: 'Crypto',
       links: [
-        'stars',
-       
+        'Bitcoin',
+        'Ethereum',
+        'Blockchain',
+        'Altcoins',
       ],
-    },
+    }
+,    
     {
-      title: 'Sports',
+      title: 'Blog Flash',
       links: [
-        'football',
-        'basketball',
-        'tennis',
-        'cricket',
-      ],
-    },
-    {
-      title: 'World Affairs',
-      links: [
-        'politics',
-        'economy',
-        'culture',
-        'history',
+        'Technologies',
+        'Updates',
+        'Culture',
+        'History',
       ],
     },
     {
       title: 'About Us',
-      links: ['about', 'team', 'mission'],
+      links: ['Contact', 'Privacy Policy', 'mission'],
     },
-    {
-      title: 'Contact Us',
-      links: [
-        'contact',
-        'support',
-        'Email: furqankhalid563@gmail.com',
-        'Phone: +92-305-5641720',
-      ],
-    },
+,
     
   ]
   
