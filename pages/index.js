@@ -13,7 +13,7 @@ export default function Home({posts}) {
     <div className='container mx-auto px-10 mb-8'>
       <Head>
         <title>Blogeey</title>
-        <link rel="icon" href="/favicon.io" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
      <FeaturedPosts/>
       <div className='grid grid-cols-1 lg:grid-cols-12 gap-12'>
